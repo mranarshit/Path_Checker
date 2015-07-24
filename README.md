@@ -10,6 +10,11 @@ Features :
  * 3 methode of check file 
  * Saving result 
  * Single check 
+Methode : 
+Check existing of path using 3 steps : 
+ 1. By response code = 200
+ 2. Comparing length of source page of 2 url first which contain the path and second a notfound path 
+ 3. Using a Keyward exist in notfound page if the keyward not exist in the real path so path is true 
 ```
 
 TO RUN THE SCRIPT
@@ -34,11 +39,3 @@ Github            https://github.com/mranarshit/
 Screenshot
 ----
 ![images](https://lh3.googleusercontent.com/-DlWW_Yy_qEM/VbKpfwUB07I/AAAAAAAAAQA/nwaF5Kqm7E8/s912-Ic42/ccccc.jpg)
-
-
-
-
-
-
-
-
