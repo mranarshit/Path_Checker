@@ -24,6 +24,12 @@ LWP::UserAgent              Any Version
 Parallel::ForkManager       Enabled
   * install : install parallel::forkmanager module sudo apt-get install libparallel-forkmanager-perl
   * or cpan Parallel::ForkManager
+ Command to use [Usage] : 
+  * perl name_tool.pl -u site.com -f path.txt -w keyward -t 3
+  --u : the url to test 
+  --f : file of paths
+  --w : keyward in notfound page 
+  --t : number of fork (for fast check)
 ```
 
 ABOUT DEVELOPER
