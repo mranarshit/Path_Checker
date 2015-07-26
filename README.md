@@ -7,10 +7,10 @@ TOOL DISCRIPTION
 Search files or dirs on websites!
 Features : 
  * Ultra fast using Parallel::ForkManager module
- * 3 methode of check file 
+ * 3 method of check file 
  * Saving result 
  * Single check 
-Methode : 
+Method : 
 Check existing of path using 3 steps : 
  1. By response code = 200
  2. Comparing length of source page of 2 url first which contain the path and second a notfound path 
